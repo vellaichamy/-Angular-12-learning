@@ -1,3 +1,3 @@
-# angular-ivy-yz19ub
+# angular-12-learning
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-ivy-yz19ub)
+[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-12-learning)
