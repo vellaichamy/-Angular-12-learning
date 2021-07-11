@@ -7,4 +7,8 @@ import { Component, VERSION } from '@angular/core';
 })
 export class AppComponent  {
   name = 'Angular ' + VERSION.major;
+  notificationsCount = 0;
+  updateNotificationsCount(count: number) {
+    this.notificationsCount = count;
+  }
 }
