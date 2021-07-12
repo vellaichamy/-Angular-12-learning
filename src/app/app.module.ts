@@ -11,7 +11,7 @@ import { VcLogsComponent } from './cc-ng-on-changes/components/vc-logs/vc-logs.c
 import { VcLogsComponent1 } from './cc-setters/components/vc-logs/vc-logs.component';
 import { VersionControlComponent1 } from './cc-setters/components/version-control/version-control.component';
 import { GalleryComponent } from './cc-view-child/gallery/gallery.component';
-import { TwitterCardComponent } from './ng-dynamic-components/components/twitter-card/twitter-card.component';
+// import { TwitterCardComponent } from './ng-dynamic-components/components/twitter-card/twitter-card.component';
 // import { GalleryComponent } from './cc-view-child/gallery/gallery.component';
 
 @NgModule({
@@ -26,8 +26,8 @@ import { TwitterCardComponent } from './ng-dynamic-components/components/twitter
     VersionControlComponent1,
     VcLogsComponent1,
     // ,
-    GalleryComponent,
-    TwitterCardComponent
+    GalleryComponent
+    //        s// TwitterCardComponent
   ],
   bootstrap: [AppComponent]
 })
