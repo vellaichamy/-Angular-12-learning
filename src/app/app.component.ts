@@ -1,4 +1,5 @@
 import { Component,ViewChild, VERSION } from '@angular/core';
+import { GalleryComponent } from './cc-view-child/gallery/gallery.component';
 
 @Component({
   selector: 'my-app',
