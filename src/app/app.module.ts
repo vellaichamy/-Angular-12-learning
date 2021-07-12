@@ -10,6 +10,7 @@ import { VersionControlComponent } from './cc-ng-on-changes/components/version-c
 import { VcLogsComponent } from './cc-ng-on-changes/components/vc-logs/vc-logs.component';
 import { VcLogsComponent1 } from './cc-setters/components/vc-logs/vc-logs.component';
 import { VersionControlComponent1 } from './cc-setters/components/version-control/version-control.component';
+import { GalleryComponent } from './cc-view-child/components/gallery/gallery.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -21,7 +22,8 @@ import { VersionControlComponent1 } from './cc-setters/components/version-contro
     VersionControlComponent,
     VcLogsComponent,
     VersionControlComponent1,
-    VcLogsComponent1
+    VcLogsComponent1,
+    GalleryComponent
   ],
   bootstrap: [AppComponent]
 })
