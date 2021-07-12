@@ -5,7 +5,7 @@ import { SocialCardType } from './ng-dynamic-components/constants/social-card-ty
 @Component({
   selector: 'my-app',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
   name = 'Angular ' + VERSION.major;
@@ -13,7 +13,6 @@ export class AppComponent {
   updateNotificationsCount(count: number) {
     this.notificationsCount = count;
   }
-
 
   selectedCardType: SocialCardType;
   cardTypes = SocialCardType;
